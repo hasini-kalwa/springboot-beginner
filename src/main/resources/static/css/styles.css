@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: pink;
     text-align: left;
     margin-top: 50px;
 }
@@ -24,7 +24,7 @@ h1 {
 #navbar{
     border: 3px solid brown;
     padding: 10px;
-    background-color: pink;
+    background-color: aquamarine;
     text-align: center;
 }
 
