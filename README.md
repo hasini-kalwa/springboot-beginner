@@ -1,2 +1,2 @@
 # springboard-beginner
-This is my first file change. and this is my second change.
+This is the project that i've created to learn practically about java springboot and web development
