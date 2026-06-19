@@ -7,22 +7,26 @@
 
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+<body>
     <div id="navbar">
       <a href="/">Home</a>
       <a href="/pages/card.html">Card</a>
       <a href="/pages/toggle.html">Toggle</a>
-      <a href="/pages/randomUser.html">Random User</a>  
-      <a href="/pages/myrandomUser.html">My Random User</a>
-      <a href="/pages/gitpulse.html">Git Pulse</a>
+      <a href="/pages/randomUser.html">Random User</a> 
+        <a href="/pages/myrandomUser.html">My Random User</a>
+        <a href="/pages/gitpulse.html">Git Pulse</a> 
     </div>
 
     <div class="card">
         <img id="user-image" src="/images/jane.png" alt="Card Image">
-        <h3>Jane Doe</h3>
-        <p>Female</p>
-        
+        <h3 id="user-name">Jane Doe</h3>
+        <p id="user-gender">Female</p>
+        <button onclick="randomUser()">Random User</button>
     </div>
-<body>
 
+
+    </div>
+    <script src="/js/site.js"></script>
+    <script src="/js/randomUser.js"></script>
 </body>
 </html>
